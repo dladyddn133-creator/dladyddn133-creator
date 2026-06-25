@@ -15,30 +15,38 @@
 </div>
 
 ---
-
+ 
 ## 🛠️ Tech Stack
-
+ 
 **Languages**  
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
+ 
 **Robotics & Embedded**  
 ![ROS2](https://img.shields.io/badge/ROS_2_Jazzy-22314E?style=flat-square&logo=ros&logoColor=white)
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
 ![Jetson](https://img.shields.io/badge/Jetson_Orin-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![RaspberryPi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
-
+ 
+**Industrial Automation**  
+![GX Works2](https://img.shields.io/badge/GX_Works2-E60012?style=flat-square&logoColor=white)
+![HMI](https://img.shields.io/badge/HMI-0066CC?style=flat-square&logoColor=white)
+![PLC](https://img.shields.io/badge/PLC-1E88E5?style=flat-square&logoColor=white)
+ 
 **AI / Vision**  
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=yolo&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-
+![ACT](https://img.shields.io/badge/ACT_Policy-FFD43B?style=flat-square&logoColor=black)
+![LeRobot](https://img.shields.io/badge/LeRobot-FF6F61?style=flat-square&logoColor=white)
+ 
 **Tools**  
 ![Linux](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-
+ 
 ---
 
 ## 🚀 Projects
@@ -54,15 +62,6 @@ Burger(정찰/SLAM)와 Waffle(타게팅/사격)으로 구성된 협업 로봇 �
 
 `#ROS2` `#Nav2` `#YOLO` `#Jetson` `#Embedded`
 
-### 🚪 Big Pinky Door-Opening — Imitation Learning
-> **PinkLab Big Pinky + OMX-AI · LeRobot (ACT Policy)**
-
-모바일 로봇 + 매니퓰레이터 결합으로 문 열기 동작 학습.  
-- ACT(Action Chunking Transformer) 정책 학습
-- Rule-based arc trajectory controller와 하이브리드 구조
-- 50 에피소드 데이터셋 수집 및 HuggingFace 업로드
-
-`#ImitationLearning` `#LeRobot` `#PyTorch` `#Manipulation`
 
 ### 🌱 STM32F411RE Smart Farm — Bare-Metal Embedded
 > **STM32 · 베어메탈 펌웨어**

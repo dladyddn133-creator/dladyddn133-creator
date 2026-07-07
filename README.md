@@ -9,7 +9,7 @@
 
 > *하드웨어부터 SW까지, 시스템 전체를 이해하는 개발자를 지향합니다.*
 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:dladyddn133@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dladyddn133-creator)
 
 </div>

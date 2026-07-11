@@ -51,10 +51,10 @@
 
 ## 🚀 Projects
 
-### 🎯 OMX Auto-Aim — Multi-Robot Targeting System
-> **TurtleBot3 + OpenMANIPULATOR-X + Jetson Orin Nano · ROS 2 Jazzy**
+### 🎯 [OMX Auto-Aim](https://github.com/dladyddn133-creator/omx_aim) — Multi-Robot Targeting System
+> **TurtleBot3 + OpenMANIPULATOR-X + Jetson Orin Nano · ROS 2 Jazzy** &nbsp;`🚧 개발 중`
 
-Burger(정찰/SLAM)와 Waffle(타게팅/사격)으로 구성된 협업 로봇 시스템.  
+Burger(정찰/SLAM)와 Waffle(타게팅/사격)으로 구성된 협업 로봇 시스템.
 - Nav2 기반 자율주행 + YOLO 객체 인식 + IBVS 비주얼 서보잉
 - TARGET/BOUNDARY/PATROL 우선순위 큐 및 비동기 선점 처리
 - GPIO/MOSFET 기반 발사 메커니즘 하드웨어 통합
@@ -62,26 +62,53 @@ Burger(정찰/SLAM)와 Waffle(타게팅/사격)으로 구성된 협업 로봇 �
 
 `#ROS2` `#Nav2` `#YOLO` `#Jetson` `#Embedded`
 
+### 🖐️ [GCC — Gesture Command & Control](https://github.com/dladyddn133-creator/GCC)
+> **MediaPipe · TensorFlow · BLE HID · Raspberry Pi** &nbsp;| 팀 프로젝트 (담당: HW 설계)
 
-### 🌱 STM32F411RE Smart Farm — Bare-Metal Embedded
-> **STM32 · 베어메탈 펌웨어**
+하나의 제스처 인식 엔진으로 **PC 운영체제와 RC 차량을 동시에 제어**하는 시스템.
+- 커스텀 DNN 기반 손 제스처 분류 (16-D 관절 각도 → 7-class multi-label)
+- BlueZ/D-Bus 기반 BLE HID로 마우스·키보드 입력 구현
+- YOLOv10n 객체 탐지 + 실시간 관제 대시보드 + 주행 로그 기반 자동 귀환
+- **담당:** 차량 하드웨어 설계 · GPIO 인터페이스 · 회로 설계
 
-RTOS 없이 레지스터 직접 제어로 구현한 스마트팜 제어 시스템.  
-- 센서 데이터 수집, PWM 액추에이터 제어, UART 통신
-- 인터럽트 기반 타이머/ADC 제어
+`#MediaPipe` `#DNN` `#BLE_HID` `#RaspberryPi` `#YOLO`
+
+### 🌱 [STM32F411RE Smart Farm](https://github.com/dladyddn133-creator/STM32_SmartFarm_System) — Bare-Metal Embedded
+> **STM32 · 베어메탈 펌웨어** &nbsp;| 팀 프로젝트
+
+RTOS 없이 레지스터 직접 제어로 구현한 스마트팜 제어 시스템.
+- RFID 출입 통제 · 자동 급수 · 채광 조절 · 화재 감지를 Non-blocking 상태 머신으로 동시 제어
+- 이동 평균 필터, 히스테리시스, 소프트웨어 디바운싱으로 센서 안정성 확보
+- 인터럽트 기반 타이머/ADC/PWM 제어 및 UART 통신
 
 `#STM32` `#BareMetal` `#Firmware` `#C`
 
-### 🚗 GestureDrive — Gesture-Controlled RC Car
-> **MediaPipe · Flask/FastAPI · Raspberry Pi**
+### 🧘 [MindCare](https://github.com/dladyddn133-creator/mindcare) — IoT 마음챙김 시스템
+> **Raspberry Pi · Python**
 
-손동작 인식으로 RC카를 무선 제어하는 임베디드 비전 프로젝트.  
-- MediaPipe Hands로 제스처 인식 후 명령 변환
-- Flask/FastAPI 서버로 실시간 통신
+라즈베리파이 기반 마음챙김 IoT 시스템.
+<!-- ↓ 한 줄 설명 채워주세요 (예: 센서로 사용자 상태를 감지해 ~를 제공) -->
 
-`#ComputerVision` `#MediaPipe` `#RaspberryPi` `#IoT`
+`#RaspberryPi` `#Python` `#IoT`
 
----
+### 🏭 [PLC 자동화 창고](https://github.com/dladyddn133-creator/MiniProject_plc-automated-warehouse)
+> **Mitsubishi Q-series · GX Works2 · GOT2000 HMI**
+
+PLC 기반 자동화 물류 창고 제어 시스템.
+- 래더 로직으로 입출고 시퀀스 및 컨베이어 제어 구현
+- GOT2000 HMI 모니터링 화면 구성 및 메모리 맵 설계
+
+`#PLC` `#GXWorks2` `#HMI` `#IndustrialAutomation`
+
+### ❤️ [rPPG](https://github.com/dladyddn133-creator/rPPG-portfolio) — 비접촉 심박수 측정
+> **MediaPipe · Signal Processing · 종합설계**
+
+카메라 영상만으로 심박수를 측정하는 비접촉 rPPG 시스템.
+- MediaPipe FaceMesh 기반 다채널 ROI에서 색상 신호 추출
+- 밴드패스 필터 + FFT / Wavelet / Welch 주파수 분석으로 BPM 추정
+- UBFC-rPPG 공개 데이터셋으로 성능 평가 · 관련 기술 특허 출원
+
+`#rPPG` `#MediaPipe` `#SignalProcessing` `#OpenCV`
 
 ## 📊 GitHub Stats
 

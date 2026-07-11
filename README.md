@@ -63,7 +63,7 @@ Burger(정찰/SLAM)와 Waffle(타게팅/사격)으로 구성된 협업 로봇 �
 `#ROS2` `#Nav2` `#YOLO` `#Jetson` `#Embedded`
 
 ### 🖐️ [GCC — Gesture Command & Control](https://github.com/dladyddn133-creator/GCC)
-> **MediaPipe · TensorFlow · BLE HID · Raspberry Pi** &nbsp;| 팀 프로젝트 (담당: HW 설계)
+> **MediaPipe · TensorFlow · BLE HID · Raspberry Pi** &nbsp;| 팀 프로젝트 
 
 하나의 제스처 인식 엔진으로 **PC 운영체제와 RC 차량을 동시에 제어**하는 시스템.
 - 커스텀 DNN 기반 손 제스처 분류 (16-D 관절 각도 → 7-class multi-label)

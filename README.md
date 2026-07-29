@@ -51,16 +51,32 @@
 
 ## 🚀 Projects
 
-### 🎯 [OMX Auto-Aim](https://github.com/dladyddn133-creator/omx_aim) — Multi-Robot Targeting System
-> **TurtleBot3 + OpenMANIPULATOR-X + Jetson Orin Nano · ROS 2 Jazzy** &nbsp;`🚧 개발 중`
+### 🤖 [ROS 2 Multi-Robot Autonomous Exploration & Response System](https://github.com/dladyddn133-creator/ROS2-Project)
 
-Burger(정찰/SLAM)와 Waffle(타게팅/사격)으로 구성된 협업 로봇 시스템.
-- Nav2 기반 자율주행 + YOLO 객체 인식 + IBVS 비주얼 서보잉
-- TARGET/BOUNDARY/PATROL 우선순위 큐 및 비동기 선점 처리
-- GPIO/MOSFET 기반 발사 메커니즘 하드웨어 통합
-- 모놀리식 노드 → 모듈 분리 리팩토링 (state_machine, controller 등)
+> **ROS 2 Jazzy · TurtleBot3 · SAC · SLAM · Nav2 · YOLO11n · OpenManipulator-X**  
+> 팀 프로젝트 · 실물 다중 로봇 통합 및 데모 완료
 
-`#ROS2` `#Nav2` `#YOLO` `#Jetson` `#Embedded`
+세 대의 TurtleBot3가 역할을 분담하여 자율 탐색부터 위험 표적 대응까지 수행하는 다중 로봇 시스템입니다.
+
+- SAC 기반 자율 탐색과 Cartographer SLAM
+- Bayesian Risk Map 기반 위험 좌표 생성
+- ROS_DOMAIN_ID와 Domain Bridge 기반 다중 로봇 통신
+- Leader Waffle의 Nav2 이동 및 OMX 자동 조준
+- Scout 장애 발생 시 Follower 임무 인계
+
+**담당 영역**
+
+- Custom YOLO11n 데이터 수집·라벨링·학습·Jetson 배포
+- Point-at IK 및 IBVS 기반 OpenManipulator-X 자동 조준
+- 우선순위 큐, View Pose, 상태 머신 및 안전 타격 로직
+- Scout 위험 좌표와 Leader Nav2·OMX 시스템 연동
+
+[전체 시스템 저장소](https://github.com/dladyddn133-creator/ROS2-Project) ·
+[OMX 서브시스템 상세 보기](https://github.com/dladyddn133-creator/omx_aim) ·
+[전체 데모](https://youtu.be/gJrPbyOyMIo) ·
+[IBVS 데모](https://youtu.be/t03m8PHifMo)
+
+`#ROS2` `#MultiRobot` `#SAC` `#SLAM` `#Nav2` `#YOLO11n` `#IBVS`
 
 ### 🖐️ [GCC — Gesture Command & Control](https://github.com/dladyddn133-creator/GCC)
 > **MediaPipe · TensorFlow · BLE HID · Raspberry Pi** &nbsp;| 팀 프로젝트 

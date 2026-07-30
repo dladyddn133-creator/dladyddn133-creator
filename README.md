@@ -54,7 +54,7 @@
 ### 🤖 [ROS 2 Multi-Robot Autonomous Exploration & Response System](https://github.com/dladyddn133-creator/ROS2-Project)
 
 > **ROS 2 Jazzy · TurtleBot3 · SAC · SLAM · Nav2 · YOLO11n · OpenManipulator-X**  
-> 팀 프로젝트 · 실물 다중 로봇 통합 및 데모 완료
+> 팀 프로젝트(탱크보이) · 원 프로젝트명: CQB 전술 탐색·타격 로봇 시스템 · 실물 통합 및 데모 완료
 
 세 대의 TurtleBot3가 역할을 분담하여 자율 탐색부터 위험 표적 대응까지 수행하는 다중 로봇 시스템입니다.
 
@@ -74,12 +74,13 @@
 [전체 시스템 저장소](https://github.com/dladyddn133-creator/ROS2-Project) ·
 [OMX 서브시스템 상세 보기](https://github.com/dladyddn133-creator/omx_aim) ·
 [전체 데모](https://youtu.be/gJrPbyOyMIo) ·
-[IBVS 데모](https://youtu.be/t03m8PHifMo)
+[IBVS 데모](https://youtu.be/t03m8PHifMo) ·
+[제한 공간 시연](https://youtu.be/vuF_W8wdSJ0)
 
 `#ROS2` `#MultiRobot` `#SAC` `#SLAM` `#Nav2` `#YOLO11n` `#IBVS`
 
 ### 🖐️ [GCC — Gesture Command & Control](https://github.com/dladyddn133-creator/GCC)
-> **MediaPipe · TensorFlow · BLE HID · Raspberry Pi** &nbsp;| 팀 프로젝트 
+> **MediaPipe · TensorFlow · BLE HID · Raspberry Pi** &nbsp;| 팀 프로젝트
 
 하나의 제스처 인식 엔진으로 **PC 운영체제와 RC 차량을 동시에 제어**하는 시스템.
 - 커스텀 DNN 기반 손 제스처 분류 (16-D 관절 각도 → 7-class multi-label)
@@ -99,14 +100,6 @@ RTOS 없이 레지스터 직접 제어로 구현한 스마트팜 제어 시스�
 
 `#STM32` `#BareMetal` `#Firmware` `#C`
 
-### 🧘 [MindCare](https://github.com/dladyddn133-creator/mindcare) — IoT 마음챙김 시스템
-> **Raspberry Pi · Python**
-
-라즈베리파이 기반 마음챙김 IoT 시스템.
-<!-- ↓ 한 줄 설명 채워주세요 (예: 센서로 사용자 상태를 감지해 ~를 제공) -->
-
-`#RaspberryPi` `#Python` `#IoT`
-
 ### 🏭 [PLC 자동화 창고](https://github.com/dladyddn133-creator/MiniProject_plc-automated-warehouse)
 > **Mitsubishi Q-series · GX Works2 · GOT2000 HMI**
 
@@ -125,6 +118,13 @@ PLC 기반 자동화 물류 창고 제어 시스템.
 - UBFC-rPPG 공개 데이터셋으로 성능 평가 · 관련 기술 특허 출원
 
 `#rPPG` `#MediaPipe` `#SignalProcessing` `#OpenCV`
+
+### 🧘 [MindCare](https://github.com/dladyddn133-creator/mindcare) — IoT 마음챙김 시스템
+> **Raspberry Pi · Python**
+
+라즈베리파이 기반 마음챙김 IoT 시스템. 센서로 사용자 상태를 감지하여 이완을 돕는 피드백을 제공합니다.
+
+`#RaspberryPi` `#Python` `#IoT`
 
 ## 📊 GitHub Stats
 

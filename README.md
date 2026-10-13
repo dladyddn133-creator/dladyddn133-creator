@@ -1,17 +1,17 @@
 <div align="center">
-
+ 
 # 안녕하세요, 임용우입니다 👋
-
-### 🤖 Embedded Systems & Robotics Developer
-
+ 
+### ⚙️ Embedded Software Developer
+ 
 국민대학교 나노전자물리학과 · 전자시스템공학과 복수전공  
 서울기술교육센터 AI융합 로봇 S/W 개발자 과정 수료
-
-> *하드웨어부터 SW까지, 시스템 전체를 이해하는 개발자를 지향합니다.*
-
+ 
+> *레지스터 단위 MCU 펌웨어부터 시스템 통합까지, 하드웨어를 이해하는 임베디드 개발자를 지향합니다.*
+ 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:dladyddn133@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dladyddn133-creator)
-
+ 
 </div>
 
 ---

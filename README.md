@@ -126,15 +126,6 @@ PLC 기반 자동화 물류 창고 제어 시스템.
 
 `#RaspberryPi` `#Python` `#IoT`
 
-## 📊 GitHub Stats
-
-<div align="center">
-  
-![Stats](https://github-readme-stats.vercel.app/api?username=dladyddn133-creator&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dladyddn133-creator&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
 ---
 
 <div align="center">
